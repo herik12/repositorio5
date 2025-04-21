@@ -19,11 +19,10 @@ public class Media {
 		
 		double media = (dnota1 + dnota2 + dnota3 + dnota4) / 4;
 		
-		/*Média para aprovação é 70*/
+		/*Média para aprovação é 7*/
 		
-		if (media >= 50) {
-			
-			if (media >=70) {
+		if (media >= 5) {			
+			if (media >=7) {
 				JOptionPane.showMessageDialog(null, "Aluno está aprovado por média : " + media);
 			}else {
 				JOptionPane.showMessageDialog(null, "Aluno em recuperação com média : " + media);
